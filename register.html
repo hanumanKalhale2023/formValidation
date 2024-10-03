@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <!-- <header>
+        <h2 class="logo">Logo</h2>
+        <div class="navigation">
+            <a href="#">Home  </a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </div>
+    </header> -->
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box-login">
+            <h2>Registration</h2>
+            <form action="index.html" name="form1">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required id="uname" onfocus="" onblur="checkInput(this.id)">
+                    <label for="" >Username</label><p id="showuname"></p>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required id="email" onblur="checkInput(this.id)">
+                    <label for="">Email</label><p id="showemail"></p>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="document-lock"></ion-icon></span>
+                    <input type="password" required id="password" onblur="checkInput(this.id)">
+                    <label for="">Password</label><p id="showpassword"></p>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="document-lock"></ion-icon></span>
+                    <input type="password" required id="cpassword" onblur="checkInput(this.id)">
+                    <label for="">confirmpassword</label><p id="showcpassword"></p>
+                </div>
+                <input type="submit" class="btn" id="submit" onclick="Valid()"></input>
+
+            </form>
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="script.js"> </script>
+</body>
+</html>
